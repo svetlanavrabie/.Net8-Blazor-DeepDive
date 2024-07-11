@@ -1,0 +1,28 @@
+﻿@using NetcodeHub.Packages.Components.AdvancedFileUpload
+
+<h3>File Component</h3>
+<br/>
+<h4>Upload pdf, video, etc file</h4>
+<Upload  Content="GetContent" />
+<Preview PreviewContent="fileModel" ShowOthers=true />
+<br />
+<h4>Upload image file</h4>
+<Upload Content="GetImageFile" />
+<Preview PreviewContent="imageFile" ShowImage="true" ImageCustomStyle="width:500px;height:300px" />
+
+<h1>@fileModel.Error</h1>
+
+@code {
+    FileModel imageFile= new();
+    FileModel fileModel = new();
+
+    private void GetContent(FileModel fm)
+    {
+        fileModel = fm;
+    }
+
+    private void GetImageFile(FileModel fm)
+    {
+        imageFile = fm;
+    }
+}

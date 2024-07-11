@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NetcodeHub.Packages.Components.AdvancedFileUpload" Version="1.0.0" />
     <PackageReference Include="NetcodeHub.Packages.Components.Toast" Version="1.0.1" />
     <PackageReference Include="NetcodeHub.Packages.Extensions.Clipboard" Version="1.0.0" />
   </ItemGroup>
