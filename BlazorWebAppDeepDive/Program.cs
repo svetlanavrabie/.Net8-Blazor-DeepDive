@@ -1,5 +1,6 @@
 using BlazorWebAppDeepDive.Components;
 using NetcodeHub.Packages.Components.Toast;
+using NetcodeHub.Packages.Extensions.Clipboard;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddScoped<ToastService>();
+builder.Services.AddScoped<ClipboardService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

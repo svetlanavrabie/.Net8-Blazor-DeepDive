@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAppDeepDive", "BlazorWebAppDeepDive\BlazorWebAppDeepDive.csproj", "{97FA0DCC-8E31-4026-8156-97A31A8CD3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebAppDeepDive", "BlazorWebAppDeepDive\BlazorWebAppDeepDive.csproj", "{97FA0DCC-8E31-4026-8156-97A31A8CD3F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
